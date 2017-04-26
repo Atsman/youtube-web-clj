@@ -1,0 +1,53 @@
+.video {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  padding: 10px 0;
+  border-radius: 5px;
+  background: white;
+}
+
+.video__preview {
+  position: relative;
+  width: 100%;
+}
+
+.video__image {
+  width: 100%;
+  background-color: red;
+}
+
+.video__title {
+  color: black;
+  text-align: center;
+}
+
+.video__info {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color: #767676;
+  font-size: 14px;
+}
+
+.video__author {
+  width: 100%; 
+  cursor: pointer;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.video__meta-info {
+  display: flex;
+}
+
+.video__meta-date {
+  margin-left: 20px;
+}
+
+.video__description {
+  padding: 10px 0;
+  font-style: italic;
+}

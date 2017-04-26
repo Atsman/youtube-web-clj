@@ -1,0 +1,10 @@
+.video-list {
+  display: flex;
+  list-style: none;
+}
+
+.video-list__item {
+  &:not(:last-child) {
+    margin-right: 20px;
+  }
+}
